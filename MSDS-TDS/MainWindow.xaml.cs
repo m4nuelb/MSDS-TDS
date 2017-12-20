@@ -77,8 +77,7 @@ namespace MSDS_TDS
 
                                     if (app != null)
                                     {
-                                        string[] files = Directory.GetFiles(@"\\w2011sbs1\Schede Tecniche e di Sicurezza\Garmon CO\-- MSDS\-- PRESENTI SUL SITO", app + " - *.*", SearchOption.AllDirectories);
-
+                                        string[] files = Directory.GetFiles(@"\\PATH)
                                         if (files != null)
                                         {
                                            
@@ -226,8 +225,7 @@ namespace MSDS_TDS
 
                                     if (app != null)
                                     {
-                                        string[] files = Directory.GetFiles(@"\\w2011sbs1\Schede Tecniche e di Sicurezza\Garmon CO\-- TDS\-- PRESENTI SUL SITO", app + " - *.*", SearchOption.AllDirectories);
-
+                                        string[] files = Directory.GetFiles(@"\\PATH)
                                         if (files != null)
                                         {
 
