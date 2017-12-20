@@ -1,0 +1,19 @@
+﻿<Window x:Name="MSDS___TDS" x:Class="MSDS_TDS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MSDS &amp; TDS" Height="294.667" Width="228.333" Icon="save2.ico" ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="btn_elaboraMSDS" Content="Salva MSDS" HorizontalAlignment="Left" Margin="48,149,0,0" VerticalAlignment="Top" Width="120" Click="btn_elaboraMSDS_Click" Height="35" Grid.ColumnSpan="2"/>
+        <Label Content="Nome File" HorizontalAlignment="Left" Margin="76,8,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.516,0.526" Grid.ColumnSpan="2" Height="26" Width="64"/>
+        <TextBox x:Name="txt_nfile" HorizontalAlignment="Left" Height="24" Margin="48,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="txt_destinazione" HorizontalAlignment="Left" Height="23" Margin="48,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2"/>
+        <Label Content="Cartella di Destinazione" HorizontalAlignment="Left" Margin="41,75,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="26" Width="135"/>
+        <Button x:Name="btn_elaboraTDS" Content="Salva TDS" HorizontalAlignment="Left" Margin="48,199,0,0" VerticalAlignment="Top" Width="120" Click="btn_elaboraTDS_Click" Height="35" Grid.ColumnSpan="2"/>
+        <Label x:Name="lbl_version" Content="version 1.01" Grid.Column="1" HorizontalAlignment="Left" Margin="52,234,0,0" VerticalAlignment="Top" Width="59" Height="32" FontSize="8"/>
+
+    </Grid>
+</Window>
